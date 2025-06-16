@@ -1,0 +1,22 @@
+<restlet scriptid="customscript_jj_rl_so_if_operations_api">
+  <description></description>
+  <isinactive>F</isinactive>
+  <name>JJ RL SO IF Operations Through API Req</name>
+  <notifyadmins>F</notifyadmins>
+  <notifyemails></notifyemails>
+  <notifyowner>T</notifyowner>
+  <notifyuser>F</notifyuser>
+  <scriptfile>[/SuiteScripts/JobinAndJismi/OTP-8977/jj_rl_api_creation_for_sales_order_details_otp_8977.js]</scriptfile>
+  <scriptdeployments>
+    <scriptdeployment scriptid="customdeploy_jj_rl_so_if_operations_api">
+      <allemployees>T</allemployees>
+      <allpartners>F</allpartners>
+      <allroles>T</allroles>
+      <audslctrole>CUSTOMER_CENTER|EMPLOYEE_CENTER|NETSUITE_SUPPORT_CENTER|NETSUITE_SUPPORT_CENTER__BASIC|ONLINE_FORM_USER|PARTNER_CENTER|SHOPPER|VENDOR_CENTER</audslctrole>
+      <isdeployed>T</isdeployed>
+      <loglevel>DEBUG</loglevel>
+      <status>RELEASED</status>
+      <title>JJ RL SO IF Operations Through API Req</title>
+    </scriptdeployment>
+  </scriptdeployments>
+</restlet>
