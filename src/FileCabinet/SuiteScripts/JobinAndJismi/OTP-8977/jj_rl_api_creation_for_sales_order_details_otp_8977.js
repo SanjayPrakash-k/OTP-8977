@@ -4,25 +4,26 @@
  * @NModuleScope SameAccount
  */
 /*************************************************************************************
- ***********
  *
  *
  * ${OTP-8977} : ${Create API for the fetching the Sales order details}
  *
  *
  **************************************************************************************
- ********
  *
  * Author: Jobin and Jismi IT Services
  *
  * Date Created : 10-June-2025
  *
- * Description : This script is for fetching sales order with open status. Details of the sales order include internal ID, 
- * document number, date, and total amount. The data should be in a JSON object. The application will use the API for fetching 
- * the sales order whose status is open. The application needs to fetch the single sales order with item details include item name, 
- * quantity, rate, gross amount). The internal id of the sales order will be passed as a parameter in the API. The application needs
- *  to use the API for fetching the single sales order. If no sales order is found for the parameter id, then the message "RESULT: 
- * NOT FOUND needs to be shown.
+ * Description : This script is for fetching sales order with open status. Details of 
+ * the sales order include internal ID, document number, date, and total amount. The 
+ * data should be in a JSON object. The application will use the API for fetching the 
+ * sales order whose status is open. The application needs to fetch the single sales 
+ * order with item details include item name, quantity, rate, gross amount). The 
+ * internal id of the sales order will be passed as a parameter in the API. The 
+ * application needs to use the API for fetching the single sales order. If no sales 
+ * order is found for the parameter id, then the message "RESULT: NOT FOUND needs to 
+ * be shown.
  *
  *
  * REVISION HISTORY
@@ -31,8 +32,7 @@
  *
  *
  *
- *************************************************************************************
- **********/
+ *************************************************************************************/
 define(['N/log', 'N/record', 'N/search'],
     /**
  * @param{log} log
